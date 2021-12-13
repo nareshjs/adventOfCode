@@ -127,7 +127,7 @@ public class Day11 {
     return flashedCount;
   }
 
-  private static void print(int[][] matrix) {
+  public static void print(int[][] matrix) {
     int cols = matrix[0].length;
     for(int i = 0; i < matrix.length; i++) {
       for(int j = 0; j < cols; j++) {
