@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 //was able to do part 1 using LinkedList, but for Part 2 had to look at reddit for soln and rewrite the whole soln.
+//there seems to be another DP solution for this too. Not tried this yet.
 public class Day14 {
   public static void main(String []args) throws IOException {
     List<String> lst =
