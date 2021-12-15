@@ -101,7 +101,7 @@ public class Day11 {
     }
   }
 
-  private static boolean isValid(int ii, int jj, int rows, int cols) {
+  public static boolean isValid(int ii, int jj, int rows, int cols) {
     boolean isValid = true;
     if(ii < 0 || jj < 0 || ii > rows - 1 || jj > cols - 1) isValid = false;
     return isValid;
