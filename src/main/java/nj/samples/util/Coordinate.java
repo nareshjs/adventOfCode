@@ -10,6 +10,11 @@ public class Coordinate {
     y = Integer.parseInt(parts[1]);
   }
 
+  public Coordinate(int xx, int yy) {
+    x = xx;
+    y = yy;
+  }
+
   public static boolean areCoordinatesAlongSameAxis(Coordinate a, Coordinate b) {
     return a.x == b.x || a.y == b.y;
   }
